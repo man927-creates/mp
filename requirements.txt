@@ -1,0 +1,6 @@
+flask>=3.0
+numpy>=1.24
+scikit-learn>=1.3
+xgboost>=2.0          # optional-ish: falls back to sklearn HistGradientBoosting if missing
+tensorflow>=2.16      # optional: falls back to an MLP sequence model if missing (needs Python 3.9-3.12)
+scapy>=2.5            # optional: only needed for Live capture (also needs Npcap on Windows)
